@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.main-bg {
+    background-color: lightblue;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+
+.cal-bg {
+    background-color: black;
+    width: 60%;
+    max-width: 400px;
+    height: 500px;
+    border-radius: 15px;
+    margin: auto;
+}
+
+.cal-btn {
+    background-color: white;
+    color: black;
+    border-width: 0px;
+    font-size: 30px;
+    font-weight: 500;
+    width: 60px;
+    height: 60px;
+    border-radius: 7px;
+    margin: 6px;
+}
+
+.eql-btn {
+    width: 130px;
+}
+
+.display-area {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 6px;
+}
+
+.display-area input {
+    text-align: right;
+    width: 100%;
+    font-size: 45px;
+    background-color: black;
+    color: white;
+    border-width: 0px;
+}
